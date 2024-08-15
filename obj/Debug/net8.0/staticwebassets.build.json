@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GAfinHzjbd9jQfYrZUWzRTtUAMR6KgWGgTWFIxGtCqo=",
+  "Source": "AuthProductsAPI",
+  "BasePath": "_content/AuthProductsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
