@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using System.Text;
 using AuthProductsAPI.DB;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -28,7 +29,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["TokenKey"]!)),
             ValidateIssuer = false,
-            ValidateAudience = false
+            ValidateAudience = false,
+            RoleClaimType = ClaimTypes.Role
         };
     });
 
@@ -43,6 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 

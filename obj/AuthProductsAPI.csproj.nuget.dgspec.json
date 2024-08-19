@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kagu_rhick\\source\\repos\\AuthProductsAPI\\AuthProductsAPI\\AuthProductsAPI.csproj": {}
+    "C:\\Users\\kagu_rhick\\Desktop\\Новая папка\\AuthProductsAPI\\AuthProductsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kagu_rhick\\source\\repos\\AuthProductsAPI\\AuthProductsAPI\\AuthProductsAPI.csproj": {
+    "C:\\Users\\kagu_rhick\\Desktop\\Новая папка\\AuthProductsAPI\\AuthProductsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kagu_rhick\\source\\repos\\AuthProductsAPI\\AuthProductsAPI\\AuthProductsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kagu_rhick\\Desktop\\Новая папка\\AuthProductsAPI\\AuthProductsAPI.csproj",
         "projectName": "AuthProductsAPI",
-        "projectPath": "C:\\Users\\kagu_rhick\\source\\repos\\AuthProductsAPI\\AuthProductsAPI\\AuthProductsAPI.csproj",
+        "projectPath": "C:\\Users\\kagu_rhick\\Desktop\\Новая папка\\AuthProductsAPI\\AuthProductsAPI.csproj",
         "packagesPath": "C:\\Users\\kagu_rhick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kagu_rhick\\source\\repos\\AuthProductsAPI\\AuthProductsAPI\\obj\\",
+        "outputPath": "C:\\Users\\kagu_rhick\\Desktop\\Новая папка\\AuthProductsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kagu_rhick\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,9 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuthProductsAPI.Controllers;
 
+//P.S. Для перевірки всього функціоналу використовуйте:
+//https://www.postman.com/security-specialist-47105135/workspace/authproductapi/overview
+
 [Route("api/[controller]")]
-[ApiController]
-[Authorize]
+[ApiController] 
 public class ProductController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
@@ -19,6 +21,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Roles = "Client")]
     public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
     {
         try
@@ -33,6 +36,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> AddProduct(Product product)
     {
         _context.Products.Add(product);

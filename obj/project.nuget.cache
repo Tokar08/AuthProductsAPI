@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xMzCTOpJuchDgCpGBqmKHa2CRt4aMqmsi3SnPwipcg8jhj4Lv4ueOgB8mK4SMIAIGI5hsOfgFK21+ni5OwVMaA==",
+  "dgSpecHash": "3GlGLvdi7efgj8sbWD9duMFvNymtYhVs5CT3YLqXriysVYBOSARCiKFW4Ob83VriO8kS4yM2G3C3vxaAKlE5pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kagu_rhick\\source\\repos\\AuthProductsAPI\\AuthProductsAPI\\AuthProductsAPI.csproj",
+  "projectFilePath": "C:\\Users\\kagu_rhick\\Desktop\\Новая папка\\AuthProductsAPI\\AuthProductsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kagu_rhick\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kagu_rhick\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
